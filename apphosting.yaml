@@ -1,0 +1,7 @@
+runConfig:
+  minInstances: 0
+  maxInstances: 1
+
+scripts:
+  buildCommand: ng build --configuration=production
+  runCommand: node dist/angular-hydration-let-array-mutation/server/server.mjs

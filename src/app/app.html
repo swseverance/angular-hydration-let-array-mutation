@@ -1,3 +1,9 @@
+@let list = todos;
+@for (todo of list; track todo.id) {
+  <!-- Reading "list" in here (a child view) makes Angular store the @let value. -->
+  <p>{{ todo.title }} ({{ $index + 1 }} of {{ list.length }})</p>
+}
+
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->

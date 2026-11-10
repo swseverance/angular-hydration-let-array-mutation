@@ -1,0 +1,7 @@
+{
+  "apphosting": {
+    "backendId": "ng-hydration-let-mutation",
+    "rootDir": "/",
+    "ignore": ["node_modules", ".git", ".angular", "dist", "firebase-debug.log", "firebase-debug.*.log"]
+  }
+}
